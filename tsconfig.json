@@ -25,7 +25,8 @@
       "@redux": ["src/redux"],
       "@test/*": ["test/*"],
       "@test": ["test"]
-    }
+    },
+    "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "test/*"]

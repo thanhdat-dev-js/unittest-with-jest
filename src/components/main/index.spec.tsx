@@ -13,9 +13,9 @@ describe("Main component testing with testing-library", () => {
     const { getByText } = render(<Main />);
 
     getByText("superplate");
-    getByText(
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-    );
+    // getByText(
+    //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    // );
   });
 
   it("renders button successfuly", () => {
